@@ -26,3 +26,15 @@ Route::get('hello-world', "HelloWorldController@index");
 Route::get('peras', "BatatasController@cenouras");
 
 Route::get('gucci', 'GucciPagesController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
